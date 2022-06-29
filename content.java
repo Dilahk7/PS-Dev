@@ -229,6 +229,5 @@ public class Cadyof {
         System.out.println("ckowi");
         System.out.println("fyklx");
         System.out.println("hbbig");
-        System.out.println("gjmob");
     }
 }
