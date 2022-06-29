@@ -58,6 +58,5 @@ public class Cadyof {
         System.out.println("gwbbn");
         System.out.println("lxmxa");
         System.out.println("cslmq");
-        System.out.println("trued");
     }
 }
