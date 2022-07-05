@@ -149,6 +149,5 @@ public class Cadyof {
         System.out.println("udgye");
         System.out.println("ewrmk");
         System.out.println("ybvne");
-        System.out.println("nlytr");
     }
 }
