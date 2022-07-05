@@ -172,6 +172,5 @@ public class Cadyof {
         System.out.println("ybclx");
         System.out.println("xbbpl");
         System.out.println("ocynt");
-        System.out.println("nalwb");
     }
 }
