@@ -39,6 +39,5 @@ public class Cadyof {
         System.out.println("kdadl");
         System.out.println("uffrt");
         System.out.println("scqcp");
-        System.out.println("gtkkh");
     }
 }
