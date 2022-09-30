@@ -42,6 +42,5 @@ public class Cadyof {
         System.out.println("agfvb");
         System.out.println("imoiv");
         System.out.println("hcsag");
-        System.out.println("mlqck");
     }
 }
