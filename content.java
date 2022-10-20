@@ -64,5 +64,6 @@ public class Cadyof {
         System.out.println("urxvi");
         System.out.println("xlijl");
         System.out.println("gyryo");
+        System.out.println("ksciq");
     }
 }
