@@ -98,6 +98,6 @@ public class Cadyof {
         System.out.println("lojmy");
         System.out.println("dkbxt");
         System.out.println("lvlap");
-        System.out.println("tiusl");
+        System.out.println("ricnc");
     }
 }
