@@ -9,6 +9,5 @@ public class Cadyof {
         System.out.println("fanav");
         System.out.println("xdcnh");
         System.out.println("kogyx");
-        System.out.println("mymmk");
     }
 }
