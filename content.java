@@ -256,6 +256,5 @@ public class Cadyof {
         System.out.println("rtccu");
         System.out.println("vruar");
         System.out.println("iqnny");
-        System.out.println("oxnwd");
     }
 }
