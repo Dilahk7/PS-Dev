@@ -188,6 +188,5 @@ public class Cadyof {
         System.out.println("dvsgw");
         System.out.println("eoxrt");
         System.out.println("pkspc");
-        System.out.println("jcqtl");
     }
 }
