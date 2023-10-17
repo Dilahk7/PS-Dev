@@ -269,5 +269,7 @@ public class Cadyof {
         System.out.println("syktm");
         System.out.println("wjdwy");
         System.out.println("xoxsc");
+        System.out.println("aumoo");
+        System.out.println("dnxmw");
     }
 }
