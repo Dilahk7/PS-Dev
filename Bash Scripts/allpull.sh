@@ -52,6 +52,14 @@ cd /home/khalid/repo/entity/root-pom
 echo root-pom
 $cmd
 echo ----------------------------------------------
+
+cd /home/khalid/repo/altCommon
+git restore 'Maven Build EAR/pom.xml'
+echo AltCommon
+$cmd
+sh /home/khalid/shiftpom.sh
+echo ----------------------------------------------
+
 cd /home/khalid/repo/altadhocreport
 echo Altadhocreport
 $cmd
@@ -80,13 +88,6 @@ echo ----------------------------------------------
 cd /home/khalid/repo/framework
 echo framework
 $cmd
-echo ----------------------------------------------
-
-cd /home/khalid/repo/altCommon
-git restore 'Maven Build EAR/pom.xml'
-echo AltCommon
-$cmd
-sh /home/khalid/shiftpom.sh
 echo ----------------------------------------------
 
 cd /home/khalid/repo/altWorklife

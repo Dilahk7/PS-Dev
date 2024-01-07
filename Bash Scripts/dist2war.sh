@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo chmod 777 /home/khalid/repo/ -R
 cd /home/khalid/repo/altWorklife/altone
-node --max_old_space_size=5072 ./node_modules/@angular/cli/bin/ng build --configuration=sohum --prod --output-hashing=all  --verbose --progress
+node --max_old_space_size=15288 ./node_modules/@angular/cli/bin/ng build --configuration=sohum --prod --output-hashing=none  --verbose --progress
 
 
 # Set source and destination directories

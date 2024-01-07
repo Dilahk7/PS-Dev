@@ -1,8 +1,7 @@
 #!/bin/bash
 sudo chmod 777 /home/khalid/repo/ -R
 cd /home/khalid/repo/altAdmin/Admin/AltAdminWAR/angular
-node --max_old_space_size=5072 ./node_modules/@angular/cli/bin/ng build --configuration=sohum --prod --output-hashing=all
-
+node --max_old_space_size=7288 ./node_modules/@angular/cli/bin/ng build --output-hashing=all  --verbose --progress
 
 # Set source and destination directories
 src_dir=/home/khalid/repo/altAdmin/Admin/AltAdminWAR/angular/dist

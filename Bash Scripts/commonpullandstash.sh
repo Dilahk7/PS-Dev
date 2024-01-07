@@ -7,7 +7,7 @@ read cmd
 git restore 'Maven Build EAR/pom.xml'
 git add . 
 git stash save -m "$cmd"
-git pull origin development 
+git pull origin master 
 git stash apply stash@{0}
 sleep 1
 echo "Enter F to continue Merge or J to resolve Merge conflicts"
@@ -16,8 +16,8 @@ read choice
 if [ "$choice" = "f" ]; then
     git add .
     git commit -m $cmd
-    git checkout -b khalid/dev/$cmd
-    git push origin khalid/dev/$cmd
+    git checkout -b khalid/m/$cmd
+    git push origin khalid/m/$cmd
 else
     echo "Exiting Script to resolve Merge conflicts"
 fi

@@ -4,13 +4,18 @@ echo "Enter a Commit Msg"
 read cmd
 
 git restore src/main/webapp/
-git add . 
+ if test -f AltOneOrganise.iml; then                                               
+      git restore AltOneOrganise.iml
+    fi                                                                        
+         
+git add .
 git stash save -m "$cmd"
-git pull origin development 
+git pull origin development
 git stash apply stash@{0}
 sleep 1
 echo "Enter F to continue Merge or J to resolve Merge conflicts"
 read choice
+
 
 if [ "$choice" = "f" ]; then
     git add .

@@ -15,8 +15,8 @@ cp "$admin_war" "$war_dist$new_file_name"
 cp "$admin_ear" "$ear_dist$new_file_name"
 
 
-echo "loginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/sohum/alt_en.properties
-echo "loginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/dev/alt_en.properties
-echo "loginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/alt_en.properties
-echo "loginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/alt_en_US.properties
-echo "loginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/altadmin.properties
+echo "\nloginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/sohum/alt_en.properties
+echo "\nloginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/dev/alt_en.properties
+echo "\nloginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/alt_en.properties
+echo "\nloginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/alt_en_US.properties
+echo "\nloginthrougholdportal = true" >> /home/khalid/repo/altAdmin/Admin/AltAdminWAR/src/main/resources/staging/altadmin.properties
